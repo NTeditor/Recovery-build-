@@ -37,6 +37,7 @@ on:
         description: 'MAKEFILE_NAME'
         required: true
         default: 'twrp_I003D'
+      BUILD_TARGET:
         description: 'Specify your Build Target' # Pick among boot, recovery and vendor_boot
         required: true
         default: 'recovery'
